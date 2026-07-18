@@ -1,0 +1,22 @@
+eval
+Copyright (c) 2026 Hanzo AI, Inc.
+
+This product includes software originally written by George Lester
+(https://github.com/Knetic/govaluate), licensed under the MIT License:
+
+    Copyright (c) 2014-2016 George Lester
+
+The MIT License text is retained verbatim in the LICENSE file.
+
+Lineage
+-------
+- github.com/Knetic/govaluate (George Lester, MIT) — original expression evaluator.
+- github.com/casbin/govaluate v1.3.0 — a fork carrying accessor support for struct
+  and map values, an unexported-field guard, and slice-return handling.
+- github.com/hanzoai/eval — this module, taken from casbin/govaluate v1.3.0.
+
+Deviations from casbin/govaluate v1.3.0
+---------------------------------------
+- Go module path renamed to github.com/hanzoai/eval.
+- Go package renamed from govaluate to eval.
+- Evaluation, parsing, lexing, and operator behavior are unchanged.
