@@ -1,0 +1,6 @@
+# Expression evaluation library (govaluate lineage). Pure Go, no deps, no image.
+# The gate is the suite it ships with — parsing, evaluation, sql translation and
+# the torture cases — so a regression in the lexer or the stage planner is red.
+test:
+  - name: test
+    run: go test ./...
